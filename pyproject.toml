@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "llmstxt-generator"
-version = "0.1.1"
+version = "0.1.2"
 description = "Build a high-quality llms.txt for any website. Model-agnostic, SSRF-safe, no hallucinated URLs."
 readme = "README.md"
 requires-python = ">=3.9"

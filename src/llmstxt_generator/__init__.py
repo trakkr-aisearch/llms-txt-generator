@@ -30,7 +30,7 @@ from .config import (
 )
 from .llm import LLMClient, LLMError, estimate_cost_usd
 
-__version__ = "0.1.0"
+__version__ = "0.1.2"
 
 __all__ = [
     "__version__",
