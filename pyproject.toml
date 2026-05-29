@@ -4,13 +4,18 @@ build-backend = "hatchling.build"
 
 [project]
 name = "llmstxt-generator"
-version = "0.1.0"
+version = "0.1.1"
 description = "Build a high-quality llms.txt for any website. Model-agnostic, SSRF-safe, no hallucinated URLs."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 authors = [{ name = "Trakkr", email = "hello@trakkr.ai" }]
-keywords = ["llms.txt", "llmstxt", "ai", "seo", "geo", "ai-visibility", "crawlers", "llm"]
+keywords = [
+    "llms.txt", "llmstxt", "ai", "seo", "geo", "aeo",
+    "answer-engine-optimization", "generative-engine-optimization",
+    "ai-visibility", "ai-search", "crawlers", "llm",
+    "chatgpt", "perplexity", "gemini",
+]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -35,6 +40,8 @@ llmstxt-gen = "llmstxt_generator.cli:main"
 
 [project.urls]
 Homepage = "https://trakkr.ai"
+"Free hosted version" = "https://trakkr.ai/free-tools/llms-txt-generator"
+"Research: the llms.txt effect" = "https://trakkr.ai/trakkr-research/llmstxt-effect"
 Repository = "https://github.com/trakkr-aisearch/llms-txt-generator"
 Issues = "https://github.com/trakkr-aisearch/llms-txt-generator/issues"
 

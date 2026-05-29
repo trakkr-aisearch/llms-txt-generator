@@ -10,17 +10,20 @@
 llmstxt-gen stripe.com
 ```
 
-It crawls a site the same way an AI agent would — homepage, sitemap, robots.txt,
-the highest-signal pages — and writes a clean, spec-compliant `llms.txt` that
-gives models a faithful map of what the site is and where its important content
-lives. Every link in the output is one the generator actually saw: **no invented
-URLs.**
+`llmstxt-generator` is an open-source Python tool, from the AI visibility
+platform **[Trakkr](https://trakkr.ai)**, that builds a spec-compliant
+`llms.txt` for any website. It crawls a site the same way an AI agent would —
+homepage, sitemap, robots.txt, the highest-signal pages — and writes a clean map
+of what the site is and where its important content lives. Every link in the
+output is one the generator actually saw: **no invented URLs.**
 
 Model-agnostic by design. Runs against OpenAI, Anthropic, DeepSeek, Together,
 OpenRouter, Groq, or a local Ollama with a single flag.
 
-> Built by **[Trakkr](https://trakkr.ai)** — the AI visibility platform. This is
-> the open-source engine behind Trakkr's free llms.txt tool.
+> **No install, no API key?** Generate one free in your browser with [Trakkr's
+> hosted version](https://trakkr.ai/free-tools/llms-txt-generator) — the same
+> engine, nothing to set up. Trakkr runs it on its own site, too:
+> [trakkr.ai/llms.txt](https://trakkr.ai/llms.txt).
 
 ---
 
@@ -222,6 +225,35 @@ asyncio.run(main())
 
 `LlmsTxtResult` carries `content`, `structure`, `validation`, `pages_read`,
 `pages_discovered`, `tokens`, `cost_usd`, `elapsed_s`, and more.
+
+## FAQ
+
+### How do I create an llms.txt file?
+
+`pip install llmstxt-generator`, then `llmstxt-gen yoursite.com -o llms.txt`. It
+reads your homepage, sitemap, and top pages and writes a spec-compliant file with
+no invented URLs. Publish the result at `yoursite.com/llms.txt`.
+
+### Is there a free llms.txt generator that doesn't need an API key?
+
+Yes. Trakkr hosts a free, no-setup version of this engine at
+[trakkr.ai/free-tools/llms-txt-generator](https://trakkr.ai/free-tools/llms-txt-generator)
+— paste a domain, get a ready-to-publish file. The pip package is for running it
+yourself with your own model key.
+
+### Does an llms.txt file actually help with AI search visibility?
+
+It gives models a clean, accurate map of your important pages instead of leaving
+them to guess from navigation and boilerplate. In May 2026, Google added an
+`llms.txt` check to Lighthouse's Agentic Browsing audit. Trakkr publishes data on
+the measurable effect at
+[trakkr.ai/trakkr-research/llmstxt-effect](https://trakkr.ai/trakkr-research/llmstxt-effect).
+
+### Can't I just ask ChatGPT to write my llms.txt?
+
+You can, but it will confidently invent page URLs that don't exist. This tool
+emits only links it actually crawled and drops fabricated ones, so the file you
+publish is accurate.
 
 ## Development
 
