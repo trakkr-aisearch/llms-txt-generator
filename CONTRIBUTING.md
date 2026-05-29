@@ -41,6 +41,27 @@ pytest        # fully offline — no network, no API keys
 Open an issue with the domain, the command you ran, the provider/model, and what
 you expected vs. what you got. A `--verbose` trace helps a lot.
 
+## Releasing (maintainers)
+
+Releases publish to PyPI via [Trusted Publishing](https://docs.pypi.org/trusted-publishers/)
+(OIDC) — no API token is stored anywhere. The `.github/workflows/publish.yml`
+workflow builds the sdist + wheel and publishes them when a GitHub Release is
+published.
+
+One-time PyPI setup (account owner):
+
+1. On [pypi.org](https://pypi.org) → *Your projects* → *Publishing*, add a
+   **pending publisher** for project `llmstxt-generator`:
+   - Owner: `trakkr-aisearch`
+   - Repository: `llms-txt-generator`
+   - Workflow: `publish.yml`
+   - Environment: `pypi`
+
+To cut a release:
+
+1. Bump `version` in `pyproject.toml` and `__version__` in `__init__.py`.
+2. Create a GitHub Release with a `vX.Y.Z` tag. The workflow does the rest.
+
 ## License
 
 By contributing you agree your contributions are licensed under the MIT License.

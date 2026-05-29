@@ -43,6 +43,8 @@ and assistants.
 
 ```bash
 pip install llmstxt-generator      # or: pipx install llmstxt-generator
+# or install the latest straight from source:
+#   pip install "git+https://github.com/trakkr-aisearch/llms-txt-generator"
 export OPENAI_API_KEY=sk-...        # the only thing the default needs
 
 llmstxt-gen stripe.com             # print to stdout
