@@ -1,0 +1,44 @@
+name: Demo — generate an llms.txt
+
+# Manually run the generator against a domain and download the result as an
+# artifact. Needs an OPENAI_API_KEY repository secret (Settings -> Secrets and
+# variables -> Actions). Uses the default provider/model.
+
+on:
+  workflow_dispatch:
+    inputs:
+      domain:
+        description: "Domain to generate an llms.txt for"
+        required: true
+        default: "stripe.com"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -e .
+      - name: Check for API key
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "::error::Set an OPENAI_API_KEY repository secret to run this demo."
+            exit 1
+          fi
+      - name: Generate
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          llmstxt-gen "${{ github.event.inputs.domain }}" --verbose -o llms.txt
+          echo "----- generated llms.txt -----"
+          cat llms.txt
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: llms-txt
+          path: llms.txt

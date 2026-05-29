@@ -1,0 +1,44 @@
+# Stripe
+
+> Stripe is a financial services platform that provides businesses with tools to accept payments, manage financial operations, and implement custom revenue models. It serves a diverse range of clients, from startups to large enterprises, across various industries.
+
+## Payments Solutions
+
+- [Stripe Payments](https://stripe.com/payments): Accept payments online and in person globally with a payments solution built for any business—from scaling startups to global enterprises.
+- [Stripe Payments features](https://stripe.com/payments/features): Overview of features available with Stripe Payments.
+- [Payment methods](https://stripe.com/payments/payment-methods): Explore popular local payment methods to improve conversion rates for businesses.
+- [Payments authorization](https://stripe.com/authorization): Learn how leading brands optimize payments and improve acceptance rates using Stripe.
+- [Authentication](https://stripe.com/payments/authentication): Understand how Stripe helps meet regulatory requirements and fight fraud.
+- [Stripe Payments documentation](https://docs.stripe.com/payments.md): A guide to integrating Stripe's payments APIs.
+
+## Connect Solutions
+
+- [Stripe Connect](https://stripe.com/connect): Embed payments into products with seamless onboarding and global payouts, used by successful platforms like Shopify.
+- [Marketplace payments](https://stripe.com/connect/marketplaces): Tools for onboarding and paying out freelancers and sellers in various marketplace models.
+- [Platform payments](https://stripe.com/connect/platforms): Solutions for platforms to launch and scale profitable payment businesses.
+- [Payouts](https://stripe.com/connect/payouts): Programmatic solutions for sending fast payouts to sellers and freelancers.
+
+## Enterprise Solutions
+
+- [Enterprise Payment Solutions for Large Businesses | Stripe](https://stripe.com/enterprise): Tailored financial solutions for large enterprises to maximize conversion and automate operations.
+- [Pricing & Fees](https://stripe.com/pricing): Details on Stripe's processing fees and pricing models for businesses.
+
+## Customer Use Cases
+
+- [Figma case study | Stripe](https://stripe.com/customers/figma): Insights on how Figma's finance team utilizes Stripe for its business operations.
+- [How Anthropic Built a Scalable Revenue Model | Stripe](https://stripe.com/customers/anthropic): Overview of how Anthropic streamlined operations using Stripe's products.
+- [Behind the scenes: How Instacart powers online grocery delivery with Stripe](https://stripe.com/customers/instacart): How Instacart innovates and drives growth with Stripe's solutions.
+- [Cursor Scales to Billions in Recurring Revenue | Stripe](https://stripe.com/customers/cursor): A look at how Stripe's functionality supports Cursor's payment and billing needs.
+- [Behind the scenes: How ElevenLabs grew into a $3 billion AI audio leader with Stripe](https://stripe.com/customers/elevenlabs): How ElevenLabs leveraged Stripe for enterprise-level services.
+- [Le Monde chooses Stripe to improve local and international payments](https://stripe.com/customers/le-monde): Learn how Le Monde manages global payment requirements with Stripe.
+- [Hertz Unifies Commerce with Stripe](https://stripe.com/customers/hertz): How Hertz replaced its legacy systems with Stripe for improved transaction handling.
+
+## Company Information
+
+- [Contact our Sales Team](https://stripe.com/contact/sales): Reach out to Stripe's sales team for inquiries about services and solutions.
+
+## Optional
+
+- [Stripe Newsroom](https://stripe.com/newsroom): Latest news and updates about Stripe's partnerships and innovations.
+- [Legal](https://stripe.com/legal): Access Stripe's legal documents and policies.
+- [Professional Services](https://stripe.com/professional-services): Information on Stripe's professional services offerings.

@@ -1,0 +1,65 @@
+# Anthropic
+
+> Anthropic is an AI safety and research company building reliable, interpretable, and steerable AI systems. The company develops Claude, a large language model available through web interface and API, with emphasis on safe AI development and constitutional AI principles.
+
+Anthropic's research focuses on AI alignment, interpretability, and responsible scaling. The company serves enterprise customers, developers, and the general public through Claude's various interfaces and capabilities.
+
+## Products
+
+- [Claude Code](https://www.anthropic.com/product/claude-code): Agentic coding system that understands codebases, executes multi-file changes, and completes development tasks autonomously.
+- [Claude Opus](https://www.anthropic.com/claude/opus): Flagship large language model variant with advanced reasoning and task completion capabilities.
+- [Claude Sonnet](https://www.anthropic.com/claude/sonnet): Balanced model variant optimized for speed and efficiency across a range of tasks.
+- [Claude Haiku](https://www.anthropic.com/claude/haiku): Lightweight model variant designed for fast, cost-effective inference.
+
+## Research & Safety
+
+- [Constitution](https://www.anthropic.com/constitution): Claude's constitutional AI framework and principles guiding model behavior.
+- [Responsible Scaling Policy](https://www.anthropic.com/responsible-scaling-policy): Anthropic's approach to safely scaling AI systems and managing risks at each stage.
+- [RSP Updates](https://www.anthropic.com/rsp-updates): Latest developments and revisions to Anthropic's responsible scaling framework.
+- [Transparency](https://www.anthropic.com/transparency): Anthropic's commitments and reports on AI safety, research, and operational transparency.
+- [Research](https://www.anthropic.com/research): Published papers and technical research on AI safety, interpretability, and alignment.
+
+## Engineering & Technical Guides
+
+- [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents): Best practices and patterns for constructing AI agents with Claude.
+- [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices): Guidance on using Claude Code effectively for software development tasks.
+- [Claude Code Auto Mode](https://www.anthropic.com/engineering/claude-code-auto-mode): Documentation on autonomous operation capabilities in Claude Code.
+- [Claude Code Sandboxing](https://www.anthropic.com/engineering/claude-code-sandboxing): Security and isolation mechanisms for Claude Code execution environments.
+- [Claude Think Tool](https://www.anthropic.com/engineering/claude-think-tool): Extended reasoning capability allowing Claude to think through complex problems.
+- [Contextual Retrieval](https://www.anthropic.com/engineering/contextual-retrieval): Technique for improving retrieval-augmented generation with context-aware embeddings.
+- [Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents): Strategies for optimizing context windows and information flow in agent systems.
+- [How We Contain Claude](https://www.anthropic.com/engineering/how-we-contain-claude): Technical measures and sandboxing approaches for safe Claude deployment.
+- [Advanced Tool Use](https://www.anthropic.com/engineering/advanced-tool-use): Patterns for enabling Claude to effectively use external tools and APIs.
+- [Code Execution with MCP](https://www.anthropic.com/engineering/code-execution-with-mcp): Integration of Model Context Protocol for code execution in Claude applications.
+
+## Featured Projects
+
+- [Project Glasswing](https://www.anthropic.com/glasswing): Anthropic's research initiative on AI safety and interpretability.
+- [Claude on Mars](https://www.anthropic.com/features/claude-on-mars): Claude assisted NASA's Perseverance rover with the first AI-planned drive on another planet.
+- [Project Deal](https://www.anthropic.com/features/project-deal): Marketplace experiment where Claude conducted autonomous buying, selling, and negotiation for employees.
+- [Anthropic Interviewer](https://www.anthropic.com/about-anthropic-interviewer): Claude-powered research tool conducting conversational interviews at scale.
+- [What 81,000 People Want from AI](https://www.anthropic.com/features/81k-interviews): Insights from large-scale user interviews about AI adoption, aspirations, and concerns.
+
+## Learning & Community
+
+- [Learn](https://www.anthropic.com/learn): Educational resources and guides for using Claude and understanding AI capabilities.
+- [Engineering Blog](https://www.anthropic.com/engineering): Technical articles on AI agents, safety, evaluation, and system design.
+- [Events](https://www.anthropic.com/events): Upcoming conferences, summits, and speaking engagements featuring Anthropic.
+
+## Economic Research
+
+- [Economic Index](https://www.anthropic.com/economic-index): Anthropic's research tracking economic indicators and AI's impact on productivity.
+- [Economic Futures](https://www.anthropic.com/economic-futures): Program exploring long-term economic implications of AI advancement.
+- [Economic Futures Program](https://www.anthropic.com/economic-futures/program): Details on Anthropic's initiative studying AI's economic effects.
+- [Economic Futures Symposium Proposals](https://www.anthropic.com/economic-futures/symposium-proposals): Call for research proposals on AI and economic futures.
+
+## Company
+
+- [About](https://www.anthropic.com/company): Overview of Anthropic's mission, team, and organizational structure.
+- [Careers](https://www.anthropic.com/careers): Open positions and information about working at Anthropic.
+
+## Optional
+
+- [News](https://www.anthropic.com/news): Press releases and announcements from Anthropic.
+- [AI for Science Program Rules](https://www.anthropic.com/ai-for-science-program-rules): Guidelines for Anthropic's initiative supporting scientific research with AI.
+- [Coordinated Vulnerability Disclosure](https://www.anthropic.com/coordinated-vulnerability-disclosure): Process for reporting security vulnerabilities in Claude systems.

@@ -1,0 +1,33 @@
+# Vercel
+
+> Vercel is an AI Cloud platform that provides frontend developers with the frameworks, workflows, and infrastructure to build, deploy, and scale web applications and AI-powered experiences.
+
+Vercel was founded by Guillermo Rauch, creator of Next.js and Socket.io. The platform is known for its seamless Git integration, automatic deployments, serverless compute, and support for Jamstack architecture. Vercel also develops and maintains the Next.js React framework and acquired Turborepo in 2021.
+
+## Platform
+
+- [Vercel Documentation](https://vercel.com/docs): Complete reference for building, deploying, and scaling AI-powered applications and agentic workloads on the Vercel platform.
+- [Getting Started](https://vercel.com/docs/getting-started-with-vercel): Instructions for installing the Vercel CLI, adding plugins or agent skills, and deploying a first project.
+- [Fundamental Concepts](https://vercel.com/docs/fundamentals): Core concepts of Vercel including request lifecycle, build system, and compute models.
+- [Supported Frameworks](https://vercel.com/docs/frameworks): Overview of popular frameworks Vercel supports, with optimized build and runtime configurations.
+- [Security](https://vercel.com/security): Information about Vercel's security practices, compliance, and enterprise-grade protections.
+
+## Products
+
+- [Previews](https://vercel.com/products/previews): Toolkit for developing, previewing, and shipping web experiences with team collaboration features.
+- [Observability](https://vercel.com/products/observability): Monitoring and diagnostics tools for understanding application performance and behavior.
+- [AI Gateway Pricing](https://vercel.com/docs/ai-gateway/pricing): Pricing details for Vercel's AI Gateway service.
+- [Native Integrations](https://vercel.com/docs/integrations/install-an-integration/product-integration): Guide for adding third-party products to Vercel projects through native integrations.
+
+## Resources
+
+- [Blog](https://vercel.com/blog): Articles from the Vercel team and community covering the latest in web development and platform updates.
+- [Changelog](https://vercel.com/changelog): Record of changes, new features, and improvements to the Vercel platform.
+- [Customers and Case Studies](https://vercel.com/customers): Showcase of sites built by customers and case studies on how they use Vercel.
+
+## Optional
+
+- [Contact Sales](https://vercel.com/contact/sales/pricing): Form to speak with the sales team about plans and pricing for business needs.
+- [AI SDK 6](https://vercel.com/blog/ai-sdk-6): Announcement of AI SDK 6 with agents, tool execution approval, DevTools, MCP support, and more.
+- [What is Vercel](https://vercel.com/blog/what-is-vercel): Overview explaining the Vercel platform and its capabilities for developers.
+- [Vercel Ship 2025 Recap](https://vercel.com/blog/vercel-ship-2025-recap): Summary of announcements and highlights from the Vercel Ship 2025 event.
